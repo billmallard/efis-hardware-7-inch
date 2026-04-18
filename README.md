@@ -39,12 +39,6 @@ The display unit runs:
 - **[FIX-Gateway](../fix-gateway)** — data broker connecting to the aircraft avionics network
 - **[pyAvMap](../pyAvMap)** — optional moving map overlay for VFR/IFR chart display
 
-## Role in the MakerPlane / MAOS Ecosystem
-
-This unit is suitable as a **primary flight display** for IFR-capable MAOS avionics. The 7-inch screen accommodates a full PFD layout (attitude indicator, airspeed tape, altitude tape, HSI) alongside a moving map panel. It provides the physical housing and compute platform for the software display stack.
-
-For MAOS, a pair of these units (pilot and copilot) would constitute a redundant cockpit display architecture when driven from a FIX-Gateway data broker connected to the MAOS avionics bus.
-
 ## Important Disclaimer
 
 > This is open hardware for Experimental Amateur-Built aircraft use only.  
